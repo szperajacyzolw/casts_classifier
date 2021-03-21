@@ -103,7 +103,7 @@ def history_plot(history):
 
 def model_eval(data_generators):
     _, _, test_flow = data_generators
-    model = keras.load_model("saved_models/" + base_savename + "0.h5")
+    model = models.load_model("saved_models/" + base_savename + "0.h5")
     return model.evaluate(test_flow, return_dict=True)
 
 
