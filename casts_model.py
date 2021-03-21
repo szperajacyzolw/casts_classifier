@@ -1,5 +1,5 @@
 '''Tekne Consulting blogpost --- teknecons.com'''
-'''data saurce: https://www.kaggle.com/ravirajsinh45/real-life-industrial-dataset-of-casting-product'''
+'''picture data source: https://www.kaggle.com/ravirajsinh45/real-life-industrial-dataset-of-casting-product'''
 
 
 from tensorflow.keras import mixed_precision
