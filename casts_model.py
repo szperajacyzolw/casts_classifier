@@ -80,7 +80,7 @@ def model_name(fold_no):
 
 def model_exec(data_generators):
     train_flow, val_flow, _ = data_generators
-    model = init_model()
+    model = model_init()
     checkpoint = keras.callbacks.ModelCheckpoint('saved_models/' + model_name(0),
                                                  monitor='val_accuracy', verbose=2,
                                                  save_best_only=True, mode='max')
