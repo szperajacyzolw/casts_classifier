@@ -119,5 +119,5 @@ if __name__ == '__main__':
     plot = history_plot(training_history)
     plt.show()
 
-    eval = model_eval(datagen)
-    print(eval)
+    evaluate = model_eval(datagen)
+    print(evaluate)
