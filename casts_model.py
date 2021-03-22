@@ -114,7 +114,7 @@ if __name__ == '__main__':
     train_dir = os.path.join(this_dir, 'casting_data/train')
     test_dir = os.path.join(this_dir, 'casting_data/test')
 
-    datagen = data_generators(train_dir, train_dir, target_size)
+    datagen = data_generators(train_dir, test_dir, target_size)
     training_history = model_exec(datagen)
     plot = history_plot(training_history)
     plt.show()
